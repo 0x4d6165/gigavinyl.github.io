@@ -1,0 +1,12 @@
+name: gigavinyl-github-io
+version: '0.1.0.0'
+license: LGPL-3
+dependencies:
+- base ==4.*
+- hakyll ==4.9.*
+- clay ==0.12.*
+- text ==1.2.*
+executables:
+  site:
+    main: site.hs
+    ghc-options: -threaded
